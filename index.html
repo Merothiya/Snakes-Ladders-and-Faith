@@ -1,28 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Snakes Ladder and Faith</title>
-</head>
-
-<body>
-
-
-    <div class="canvas-container">
-        <canvas id='canvas' width='500px' height='500px'></canvas>
-        <h1>SNAKES LADDERS and FAITH</h1>
-        <button id='start'>START</button>
-        <button id='dice'>Role the Dice</button>
-
-    </div>
-    <h3 id="result">OUTCOME</h3>
-
-    <script src="hmm.js"></script>
-    <!-- <button id="start" style="z-index:2">START</button> -->
-</body>
-
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Snakes Ladder and Faith</title>
+</head>
+
+<body>
+    <div class="theme-switcher">
+        <input type="checkbox" id="theme-toggle">
+        <label for="theme-toggle">Dark Mode</label>
+    </div>
+
+    <div class="canvas-container">
+        <canvas id='canvas' width='500px' height='500px'></canvas>
+        <h1>SNAKES LADDERS and FAITH</h1>
+        <button id='start'>START</button>
+        <button id='dice'>Role the Dice</button>
+
+    </div>
+    <h3 id="result">OUTCOME</h3>
+
+    <script src="hmm.js"></script>
+    <script src="theme.js"></script>
+</body>
+
 </html>
